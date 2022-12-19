@@ -67,15 +67,21 @@ footer {
 
 /*レスポンシブ対応*/
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
+
   header {
     width: 100%;
   }
 
+  main {
+    width: 100%;
+     display: block;
+  }
+
+}
 
 .step-box{
 width: 100%;
-    display: block;
     flex-direction: column;
 }
 
