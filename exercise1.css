@@ -71,18 +71,27 @@ footer {
 
   header {
     width: 100%;
+    marginーbottom: 50px;
   }
 
   main {
     width: 100%;
-     display: block;
+    flex-direction: column;
+    margin-bottom:50px;
+  }
+
+  footer{
+    width: 100%;
+    margin-top: 50px;
   }
 
 
 .step-box{
-width: 100%;
+    width: 90%;
+    display: block;
     flex-direction: column;
-}
+    margin: 20px;
+  }
 
 .step-img1{
 width: 100%;
